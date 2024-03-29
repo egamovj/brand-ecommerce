@@ -152,4 +152,5 @@ nav {
   display: flex;
   align-items: center;
   column-gap: 3px;
+  cursor: pointer;
 }
