@@ -154,3 +154,70 @@ nav {
   column-gap: 3px;
   cursor: pointer;
 }
+
+body {
+  background: #f7fafc;
+}
+
+.electronic {
+  display: flex;
+  padding: 20px 20px 20px 14px;
+  column-gap: 11px;
+  border: 1px solid #bdc4cd;
+  margin-top: 27px;
+  border-radius: 6px;
+}
+
+.electronic__category {
+  display: flex;
+  flex-direction: column;
+}
+
+.electronic__category span {
+  width: 250px;
+  padding: 10px;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  color: #1c1c1c;
+  transition: all 0.4s ease-in-out;
+}
+
+.electronic__category span:hover {
+  background: #e5f1ff;
+  border-radius: 6px;
+}
+
+.electronic__trending {
+  background: url("../images/hero-bg.png");
+  padding: 53px 367px 177px 46px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 17px;
+}
+
+.electronic__trending-text h3 {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 28px;
+  color: #1c1c1c;
+}
+
+.electronic__trending-text h1 {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 32px;
+  color: #1c1c1c;
+}
+
+.electronic__trending button {
+  padding: 10.5px 16px;
+  border: none;
+  border-radius: 6px;
+  color: #1c1c1c;
+  box-shadow: 0 1px 2px 0 rgba(56, 56, 56, 0.08);
+  background: #fff;
+  font-weight: 500;
+  font-size: 14px;
+}
