@@ -99,3 +99,57 @@ nav {
   font-weight: 400;
   font-family: var(--primary-font);
 }
+
+.hero {
+  border: 1px solid #8b96a5;
+  padding: 14px 0;
+}
+
+.categories {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.categories__control {
+  display: flex;
+  align-items: center;
+  column-gap: 6px;
+}
+
+.categories__control-text {
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+}
+
+.categories__control-texthelp {
+  display: flex;
+  align-items: center;
+  column-gap: 1px;
+}
+
+.categories__control-text span,
+.categories__control-texthelp span,
+.categories__country-lang span,
+.categories__country-shipto span {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 137%;
+  color: #1c1c1c;
+  text-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.categories__country {
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+}
+
+.categories__country-lang,
+.categories__country-shipto {
+  display: flex;
+  align-items: center;
+  column-gap: 3px;
+}
