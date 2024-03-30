@@ -576,6 +576,7 @@ nav {
   color: #8b96a5;
   border: 1px solid #dee2e7;
   border-radius: 6px;
+  resize: none;
 }
 
 .request__quote-quantity {
