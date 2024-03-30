@@ -408,3 +408,80 @@ nav {
   letter-spacing: -0.01em;
   color: #eb001b;
 }
+
+.home {
+  display: flex;
+  border: 1px solid #e0e0e0;
+  border-bottom: none;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.home__title {
+  background: url("../images/outdoor-bg.png");
+  padding: 20px 138px 127px 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+}
+
+.home__title span {
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 130%;
+  letter-spacing: -0.01em;
+  color: #1c1c1c;
+}
+
+.home__title button {
+  padding: 10.5px 16px;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px 0 rgba(56, 56, 56, 0.08);
+  background: #fff;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 14px;
+  color: #1c1c1c;
+}
+
+.home__chairs {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+}
+
+.home__chairs-soft {
+  padding-top: 20px;
+  padding-left: 16px;
+  display: flex;
+  column-gap: 20px;
+  border-bottom: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+  padding-bottom: 8px;
+}
+
+.home__chairs-soft img {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+.home__chairs-softchair p {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  color: #1c1c1c;
+}
+
+.home__chairs-softchair span {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 13px;
+  color: #8b96a5;
+}
