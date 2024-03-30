@@ -12,6 +12,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background: #f7fafc;
+}
+
 .container {
   max-width: 1200px;
   padding: 0 10px;
@@ -155,10 +160,6 @@ nav {
   cursor: pointer;
 }
 
-body {
-  background: #f7fafc;
-}
-
 .electronic {
   display: flex;
   padding: 20px 20px 20px 14px;
@@ -181,6 +182,7 @@ body {
   font-size: 16px;
   color: #1c1c1c;
   transition: all 0.4s ease-in-out;
+  cursor: pointer;
 }
 
 .electronic__category span:hover {
@@ -220,4 +222,96 @@ body {
   background: #fff;
   font-weight: 500;
   font-size: 14px;
+  transition: all 0.3s ease-in;
+}
+
+.electronic__trending button:hover {
+  background: transparent;
+  border: none;
+  color: #0d6efd;
+  border: 1px solid #0d6efd;
+}
+
+.electronic__user {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.electronic__user-profile {
+  display: flex;
+  flex-direction: column;
+  row-gap: 13px;
+  background: #e3f0ff;
+  padding: 14px 10px 12px 10px;
+  border-radius: 6px;
+}
+
+.electronic__user-profile div {
+  display: flex;
+  align-items: center;
+  column-gap: 9px;
+}
+
+.electronic__user-profile div span {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  color: #1c1c1c;
+}
+
+.electronic__user-profilejoin {
+  background: #0d6efd;
+  color: #fff;
+  padding: 7px 62px;
+  border-radius: 6px;
+  border: none;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 13px;
+  transition: all 0.3s ease-out;
+}
+
+.electronic__user-profilejoin:hover {
+  background: transparent;
+  color: #0d6efd;
+  border: 1px solid #0d6efd;
+}
+
+.electronic__user-profilelog {
+  background: #fff;
+  color: #0d6efd;
+  padding: 7px 62px;
+  border-radius: 6px;
+  border: none;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 13px;
+  transition: all 0.3s ease-out;
+  border: 1px solid #dee2e7;
+}
+
+.electronic__user-profilelog:hover {
+  background: #0d6efd;
+  color: #fff;
+}
+
+.electronic__user-delivery {
+  background: #f38332;
+  padding: 16px 40px 22px 16px;
+  border-radius: 6px;
+}
+
+.electronic__user-delivery span,
+.electronic__user-preference span {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+.electronic__user-preference {
+  background: #55bdc3;
+  padding: 16px 40px 22px 16px;
+  border-radius: 6px;
 }
