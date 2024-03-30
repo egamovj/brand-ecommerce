@@ -384,6 +384,7 @@ nav {
   align-items: center;
   padding: 8px 19px 17px 20px;
   border-right: 1px solid #dee2e7;
+  cursor: pointer;
 }
 
 .offers__watch p {
