@@ -448,6 +448,14 @@ nav {
   font-weight: 500;
   font-size: 14px;
   color: #1c1c1c;
+  transition: all 0.4s ease-in;
+  cursor: pointer;
+}
+
+.home__title button:hover {
+  background: transparent;
+  border: 1px solid #127fff;
+  color: #127fff;
 }
 
 .home__chairs {
@@ -484,4 +492,123 @@ nav {
   font-weight: 400;
   font-size: 13px;
   color: #8b96a5;
+}
+
+.request {
+  height: 420px;
+  background: url("../images/request-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: inherit;
+  padding: 30px 31px 44px 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.request__title {
+  width: 440px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 13px;
+}
+
+.request__title h3 {
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: -0.01em;
+  color: #fff;
+}
+
+.request__title p {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: #fff;
+}
+
+.request__quote {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 20px;
+  padding: 22px 31px 25px 20px;
+  background: #fff;
+  border-radius: 6px;
+  fill: #fff;
+  box-shadow: 0 1px 2px 0 rgba(56, 56, 56, 0.25);
+}
+
+.request__quote h3 {
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: -0.01em;
+  color: #1c1c1c;
+}
+
+.request__quote-item {
+  width: 440px;
+  padding: 11px;
+  border-radius: 6px;
+  border: 1px solid #dee2e7;
+}
+
+.request__quote-item::placeholder {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  color: #1c1c1c;
+}
+
+.request__quote textarea {
+  width: 440px;
+  height: 73px;
+  padding: 11px;
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  color: #8b96a5;
+  border: 1px solid #dee2e7;
+  border-radius: 6px;
+}
+
+.request__quote-quantity {
+  display: flex;
+  column-gap: 8px;
+}
+
+.request__quote-quantity input,
+.request__quote-quantity select {
+  padding: 11px;
+  border: 1px solid #dee2e7;
+  border-radius: 6px;
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  color: #1c1c1c;
+}
+
+.request__quote button {
+  padding: 10.5px 16px;
+  background: linear-gradient(180deg, #127fff 0%, #0067ff 100%);
+  border: 1px solid transparent;
+  color: #fff;
+  border-radius: 6px;
+  transition: all 0.3s ease-in;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.request__quote button:hover {
+  background: transparent;
+  color: #127fff;
+  border: 1px solid #127fff;
+  font-size: 16px;
 }
