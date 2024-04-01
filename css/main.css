@@ -690,6 +690,7 @@ nav {
 .extraservices__wrapper-content {
   border-radius: 6px;
   border: 1px solid #e0e0e0;
+  position: relative;
 }
 
 .extraservices__wrapper-content p {
@@ -699,4 +700,14 @@ nav {
   line-height: 137%;
   color: #1c1c1c;
   padding: 16px 45px 20px 20px;
+}
+
+.extraservices__wrapper-contentimg {
+  position: absolute;
+  right: 15px;
+  top: 45%;
+  background: #d1e7ff;
+  padding: 16px;
+  border-radius: 50%;
+  border: 2px solid #fff;
 }
