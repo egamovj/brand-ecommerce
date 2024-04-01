@@ -666,3 +666,37 @@ nav {
   color: #8b96a5;
   padding-left: 7px;
 }
+
+.extraservices {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.extraservices h3 {
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: -0.01em;
+  color: #1c1c1c;
+}
+
+.extraservices__wrapper {
+  display: flex;
+  column-gap: 20px;
+}
+
+.extraservices__wrapper-content {
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+}
+
+.extraservices__wrapper-content p {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 137%;
+  color: #1c1c1c;
+  padding: 16px 45px 20px 20px;
+}
