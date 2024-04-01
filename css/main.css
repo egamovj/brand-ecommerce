@@ -712,3 +712,35 @@ nav {
   border-radius: 50%;
   border: 2px solid #fff;
 }
+
+.suppliers {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  margin-bottom: 46px;
+}
+
+.suppliers__coutry {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.suppliers__coutry--wrapper {
+  display: flex;
+  column-gap: 18px;
+  justify-content: space-between;
+}
+
+.suppliers__coutry--wrapper-content {
+  display: flex;
+  align-items: center;
+  column-gap: 11px;
+}
+
+.suppliers__coutry--wrapper-content div span {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 13px;
+  color: #8b96a5;
+}
